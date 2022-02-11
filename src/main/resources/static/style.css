@@ -1,0 +1,58 @@
+body
+{
+    background-color: beige;
+    text-align: center;
+}
+
+li
+{
+    font-size: 20px;
+    text-align: left;
+}
+
+header
+{
+    background-color: cyan;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: blue;
+    width: 1300px;
+    height: 250px;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+
+#wrapper
+{
+    background-color: burlywood;
+    width: 1200px;
+    height: 900px;
+    padding: 50px;
+}
+
+footer
+{
+    background-color: peru;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: blue;
+    width: 1300px;
+    height: 120px;
+    margin-top: 50px;
+}
+
+p
+{
+    font-size: 2em;
+}
+
+h2
+{
+    font-size: 3em;
+}
+
+.sites
+{
+    font-size: 2em;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ideal Conditions</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<div id="wrapper">
+    <h2>Ideal Building Conditions</h2>
+    <p>The first step to building a snowfort is to check the weather report, the amount of snow on
+    the ground, and the upcoming weather.</p>
+
+    <ul>
+        <li class="sites">Temperature</li>
+        <li class="description">The ideal temperature for snowfort building is between 33 and 37
+        degrees fahrenheit, any warmer, your fort will melt, any colder, the snow will not pack as well.</li>
+        <li class="sites">Snow Amount</li>
+        <li class="description">There should be at least 6 inches of snow on the ground, but the more snow,
+        the better.</li>
+        <li class="sites">Temperature in the Coming Days</li>
+        <li class="description">One thing to keep an eye on when building a snowfort, is the temperature
+        in the coming days, if you see it's going to get in the 40s, you may be better off holding back until it gets
+        colder. Ideally, you want a cold spell to occur after completion of the fort to allow the snow
+        to freeze.</li>
+        <li class="sites">Upcoming Weather Events</li>
+        <li class="description">When building snowforts, avoid building during or right before
+        major winter storms, you don't want all your hard work to get buried!  Not only that, you
+        will have more snow to work with after the storm.</li>
+    </ul>
+
+    <img class="left" th:src="@{/img/snowscene.png}" alt="Winter Storm">
+
+</div>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

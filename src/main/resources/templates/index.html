@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Snowfort Building 101</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<div id="wrapper">
+
+    <h2>Ever wanted to build the perfect snowfort?</h2>
+
+    <p>Snowforts can be fun to build, especially in the winter months when there
+    is not much to do.  This tutorial will go over the best ways to build the perfect
+    snowfort, and give a few tips and tricks on how to make it last longer.</p>
+
+    <img class="left" th:src="@{/img/snowblock.jpg}" alt="Snow Block">
+
+</div>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

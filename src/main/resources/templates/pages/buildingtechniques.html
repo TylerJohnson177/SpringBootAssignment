@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Building Techniques</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<div id="wrapper">
+    <h2>Building Techniques</h2>
+    <p>Once you have a building site in mind, the third step is to start building.
+    Based on personal experience, the best building techniques include:</p>
+    <ul>
+        <li class="sites">Snowball based Technique</li>
+        <li class="description">This technique involves creating or finding large snowballs
+        and stacking them up to create a wall.</li>
+        <li class="sites">Digging Technique</li>
+        <li class="description">In order to use this technique, you will need to build in a snowbank, or there should
+        be at least 2 to 3 feet of snow on the ground.  This can be accomplished by digging out the snow
+        in the middle, and packing it down on the outside of the fort, making a wall.</li>
+        <li class="sites">Snow Block Mold Technique</li>
+        <li class="description">Based on personal experience, this is by far the most efficient way to build a fort, it uses the least
+        amount of snow, and looks the coolest. You can use tupperware containers, buckets, or large rubbermaid bins if you wish. What
+        I find to work the best is the snow block molds you can get at your local supermarket.  Simply pack the
+            snow into the mold, flip it over and a snow block should come out. Stack the blocks in a staggered
+        pattern for the best strength.</li>
+    </ul>
+
+    <img class="left" th:src="@{/img/snowfort.png}" alt="Winter Storm">
+
+
+</div>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

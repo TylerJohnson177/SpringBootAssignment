@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Best Building Sites</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<div id="wrapper">
+
+    <h2>Finding a Good Building Site</h2>
+    <p>The second step to building a snowfort is finding a place to build,
+        Based on personal experience, the best snowfort building sites include:</p>
+
+    <ul>
+        <li class="sites">Backyards</li>
+        <li class="description">This is the most common place for snowfort building.  Advantages of building in the backyard include, you do not have
+        to carry your equipment very far, and you can see it from your window.  Disadvantages include, not as much snow to work with(You will be surprised how much snow you use),
+            and the ground may not be completely flat.</li>
+        <li class="sites">In Snowbanks</li>
+        <li class="description">Snowbanks is another common place for snowfort building.  Advantages include, it will look very cool, and you have lots of snow to work with.
+        Disadvantages include a very steep slope, and snowbanks are usually located near a road or parking lot.</li>
+        <li class="sites">Frozen Lakes</li>
+        <li class="description">Based on experience, frozen lakes is by far the best building site for snowforts.
+        Advantages include, very open area for expansion, lots of snow to work with, and a completely flat surface.
+        Disadvatages include, high winds, drifting snow, and frozen lakes can be dangerous if the ice is not
+        tested properly, make sure there is at least 6-8 inches of ice when the temperature is above freezing.</li>
+    </ul>
+
+    <img class="left" th:src="@{/img/frozenlake.png}" alt="Frozen Lake">
+
+</div>
+
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
